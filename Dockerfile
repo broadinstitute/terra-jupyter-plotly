@@ -1,5 +1,7 @@
 FROM us.gcr.io/broad-dsp-gcr-public/terra-jupyter-python:0.0.23
 
+COPY requirements.txt .
+
 USER root
 ENV PIP_USER=false
 RUN pip3 -V \
