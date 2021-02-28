@@ -1,0 +1,9 @@
+dash>=1.19.0
+plotly>=4.14.3
+pandas>=1.2.2
+Pweave>=0.30.3
+Markdown>=3.3.4
+statsmodels>=0.12.2
+epiweeks>=2.1.2
+gcsfs
+fsspec>=0.8.7
